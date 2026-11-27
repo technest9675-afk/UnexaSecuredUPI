@@ -1,0 +1,32 @@
+{
+  "name": "453aqq5u3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node test_all.js",
+    "test:flow": "node test_complete_flow.js",
+    "test:auth": "node test_auth_security.js",
+    "test:security": "node test_security_phase.js",
+    "test:features": "node test_supabase_features.js",
+    "sync-config": "node scripts/sync-config.js",
+    "sync-all": "node scripts/sync-all.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/cli": "^8.5.2",
+    "@capacitor/core": "^8.5.2",
+    "@supabase/supabase-js": "^2.118.0",
+    "jsdom": "^30.1.2"
+  },
+  "devDependencies": {
+    "vite": "^8.4.0"
+  }
+}

@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment variables & secrets (CRITICAL)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Testing & logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug_switch_business.png
+after_login.png
+tab_khata.png
+step1_login.png
+step2_after_login.png
+*.log
+
+# Capacitor & Android build caches
+.gradle/
+build/
+android/app/build/
+android/.gradle/
+android/.idea/
+android/local.properties
+
+# Operating System files
+.DS_Store
+Thumbs.db
